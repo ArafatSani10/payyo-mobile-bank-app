@@ -28,7 +28,7 @@ document.getElementById('button-login').addEventListener('click', function (even
     console.log(phoneNumber, pinNumber);
     if (phoneNumber === '01747365915' && pinNumber === '12345') {
         console.log('You are logged in');
-        window.location.href = 'https://arafatsani10.github.io/home.html'
+        window.location.href = 'https://arafatsani10.github.io/payyo-mobile-bank-app/home.html'
     }
     else {
         alert('wrong phone number or pin number')
