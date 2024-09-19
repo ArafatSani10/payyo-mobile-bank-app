@@ -1,4 +1,4 @@
-console.log('button cliking file added ')
+// console.log('button cliking file added ')
 // // step 01 -> set event handlar
 // document.getElementById('button-login').addEventListener('click', function(event){
 //     // step 02-> set pereventDefaut behaviour
@@ -18,23 +18,19 @@ console.log('button cliking file added ')
 //     else{
 //         alert('wrong phone number or pin')
 //     }
-  
-
 // })
 
 
-document.getElementById('button-login').addEventListener('click', function(event){
+document.getElementById('button-login').addEventListener('click', function (event) {
     event.preventDefault();
     let phoneNumber = document.getElementById('phone-number').value;
     let pinNumber = document.getElementById('pin-number').value;
-    console.log(phoneNumber,pinNumber);
-    if(phoneNumber === '01747365915' && pinNumber === '12345'){
-        console.log('You are logged in')
-        window.location.href='/home.html'
+    console.log(phoneNumber, pinNumber);
+    if (phoneNumber === '01747365915' && pinNumber === '12345') {
+        console.log('You are logged in');
+        window.location.href = '/home.html'
     }
-    else{
+    else {
         alert('wrong phone number or pin number')
     }
-   
-
 })
