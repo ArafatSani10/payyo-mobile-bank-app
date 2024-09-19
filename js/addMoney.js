@@ -5,7 +5,7 @@ document.getElementById('btn-add-money').addEventListener('click', function(even
     let addMoneynumber = parseFloat(addMoney);
     let pinNumber = document.getElementById('input-pin-money').value;
     console.log(addMoney,pinNumber)
-    if(pinNumber === '1234'){
+    if(pinNumber === '12345'){
         console.log('adding money to your account');
         let balance = document.getElementById('account-balance').innerText;
         let balanceNumber = parseFloat(balance);
